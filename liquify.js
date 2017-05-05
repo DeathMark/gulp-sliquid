@@ -82,4 +82,4 @@ function isAbsolute(p) {
 	return path.normalize(p + '/') === path.normalize(path.resolve(p) + '/');
 }
 
-module.exports = liquify();
+module.exports = liquify;

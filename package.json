@@ -1,6 +1,6 @@
 {
   "name": "gulp-sliquid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile liquid files",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "bluebird": "^3.5.0",
     "gulp-util": "^3.0.8",
     "lodash": "^4.17.4",
-    "sliquid": "^1.0.0",
+    "sliquid": "^1.0.2",
     "through2": "^2.0.3"
   }
 }

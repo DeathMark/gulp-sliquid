@@ -27,7 +27,7 @@ function gulpSLiquid(locals, options) {
 			return this.emit('error', new PluginError('gulp-sliquid', 'Streaming not supported'));
 		}
 
-		global.megaliquify_file	= path.basename(file.path, '.liquid');
+		global.sliquifying	= path.basename(file.path, '.liquid');
 
 		// Clone a fresh copy, so as not to affect others
 		var tempLocals = locals ? _.clone(locals) : {};
