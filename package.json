@@ -1,0 +1,36 @@
+{
+  "name": "gulp-sliquid",
+  "version": "1.0.0",
+  "description": "Compile liquid files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeathMark/gulp-sliquid.git"
+  },
+  "keywords": [
+    "liquid",
+    "template"
+  ],
+  "author": "Tuan Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeathMark/gulp-sliquid/issues"
+  },
+  "homepage": "https://github.com/DeathMark/gulp-sliquid#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "sliquid": "^1.0.0",
+    "through2": "^2.0.3"
+  }
+}
